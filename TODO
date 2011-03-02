@@ -1,0 +1,36 @@
+This file contain ideas and plans of what to do in this project. I'd like to use this project to learn new programming techniques, methods and algorithms. Probably it won't become something useful, but for me it could be fun.
+
+- make test class
+	- generating maps from command line parameters
+	- generating maps interactively
+	- add more output messages
+		- memory and CPU usage
+			- maybe some generation benchmarks?
+- rewrite tiles type (it could contain e.g. values, objects, ...) - make it more general
+- generating maps randomly
+	- add a pattern to generation
+		- fractals
+	- dynamic generation
+		- infinite map
+			- with a through path
+- prepare it for general use
+	- use locale
+- generate a maze which has a through path
+- *think* about generating non-rectangle maps
+	- whole new base concept needed
+		- graph structure
+	- maybe good idea for another project
+	- simulating non-rectangle maps only?
+		- "empty" fields
+			- memory consuming
+- have the map/maze generator as a library
+- make a graphics interface for it
+	- first a simple text one (using ncurses probably)
+	- ideal way to learn different graphics libraries
+	- tip: terrain generation (
+	- it will possibly overgrow in other project using the map library just for background
+- create a simple agent searching a path out of the maze
+	- (robot Karel :-)
+	- make the agent more and more intelligent (once again, it could overgrow to some kind of an agent system)
+- (simple) game using the map generator
+- port it to Android (NDK)
