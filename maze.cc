@@ -1,3 +1,7 @@
+/**
+ * This file is main entry point for map base and also a (temporary) testing file
+ */
+
 #include "map.h"
 #include "map_patterns.h"
 #include "print.h"
@@ -8,7 +12,7 @@ using namespace map;
 
 int main() {
 	//Map map;
-	Wall map;
+	Cave map;
 	try {
 		map.init();
 	}

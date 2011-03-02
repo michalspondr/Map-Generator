@@ -15,6 +15,7 @@ This file contain ideas and plans of what to do in this project. I'd like to use
 			- with a through path
 - prepare it for general use
 	- use locale
+	- start using autotools?
 - generate a maze which has a through path
 - *think* about generating non-rectangle maps
 	- whole new base concept needed

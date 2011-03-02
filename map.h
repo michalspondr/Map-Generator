@@ -11,7 +11,7 @@
 #include <iostream>
 #endif
 
-const unsigned int WIDTH = 10;
+const unsigned int WIDTH = 30;
 const unsigned int HEIGHT = 10;
 
 namespace map {
